@@ -5,7 +5,7 @@ This repository holds the data and code to reproduce the analyses from the the m
 
 ## Usage
 1. Clone the repo with `git clone https://github.com/Crombie-Lab/nematode-hts-toxicology.git`
-2. Download the 5.8 Gb `INVITRODB_V4_1_SUMMARY.zip` file and move the required sourcefiles into the `/data/raw/toxcast_data/` directory (see [TOXCAST](###9.-TOXCAST)). 
+2. Download the 5.8 Gb `INVITRODB_V4_1_SUMMARY.zip` file and move the required sourcefiles into the `/data/raw/toxcast_data/` directory (see [TOXCAST](#9-toxcast)). 
 2. Open the `01_data_processing.R` script in Rstudio.
     * Run the code to see how the raw data are cleaned, formatted, and joined.
 3. Open and run the remaining `.R` files sequentially to reproduce the analyses in the paper.
@@ -38,7 +38,7 @@ This repository holds the data and code to reproduce the analyses from the the m
 - Paper DOI:
 ### 7. Scholz *et al.* 2016
 - Raw file path: `/data/raw/Zebrafish/Scholz et al 2016/annex2_fet_en.xlsx` 
-- Link: [Download Scholz *et al.* 2016 supplemental data](https://www.sciencedirect.com/science/article/pii/S0045653516311055?via%3Dihub#appsec1)
+- Link: [View Scholz *et al.* 2016 supplemental data](https://www.sciencedirect.com/science/article/pii/S0045653516311055?via%3Dihub#appsec1)
 - Paper DOI:
 ### 8. Su *et al.* 2021
 - Raw file path: `/data/raw/Zebrafish/Su et al 2021/1-s2.0-S0048969721027765-mmc2.xls` 
@@ -46,7 +46,7 @@ This repository holds the data and code to reproduce the analyses from the the m
 - Paper DOI:
 ### 9. TOXCAST
 - Raw file paths: 
-    - `/data/raw/toxcast_data/mc5-6_winning_model_fits-flags_invitrodb_v4_1_SEPT2023.Rdata`
-    - `/data/raw/toxcast_data/assay_annotations_invitrodb_v4_1_SEPT2023.xlsx`
+- `/data/raw/toxcast_data/mc5-6_winning_model_fits-flags_invitrodb_v4_1_SEPT2023.Rdata`
+- `/data/raw/toxcast_data/assay_annotations_invitrodb_v4_1_SEPT2023.xlsx`
 - Description: Screening data from the US EPA's ToxCast program. These files were downloaded within the `INVITRODB_V4_1_SUMMARY.zip` file. This zip file is 5.8 Gb, therefore we do not host it locally in this repository. Please download the file at the link below to recreate the full analysis from RAW data.
 - Link: [View INVITRODB_V4_1_SUMMARY.zip download site](https://clowder.edap-cluster.com/files/64bfdb62e4b08a6b5a434d48)

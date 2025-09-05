@@ -46,7 +46,7 @@ This repository holds the data and code to reproduce the analyses from the the m
 - Paper DOI:
 ### 9. TOXCAST
 - Raw file paths: 
-- `/data/raw/toxcast_data/mc5-6_winning_model_fits-flags_invitrodb_v4_1_SEPT2023.Rdata`
-- `/data/raw/toxcast_data/assay_annotations_invitrodb_v4_1_SEPT2023.xlsx`
+    - `/data/raw/toxcast_data/mc5-6_winning_model_fits-flags_invitrodb_v4_1_SEPT2023.Rdata`
+    - `/data/raw/toxcast_data/assay_annotations_invitrodb_v4_1_SEPT2023.xlsx`
 - Description: Screening data from the US EPA's ToxCast program. These files were downloaded within the `INVITRODB_V4_1_SUMMARY.zip` file. This zip file is 5.8 Gb, therefore we do not host it locally in this repository. Please download the file at the link below to recreate the full analysis from RAW data.
 - Link: [View INVITRODB_V4_1_SUMMARY.zip download site](https://clowder.edap-cluster.com/files/64bfdb62e4b08a6b5a434d48)

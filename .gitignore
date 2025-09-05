@@ -1,0 +1,9 @@
+#ignored files
+.DS_Store
+.Rhistory
+.DS_Store.orig
+.Rapp.history
+.lintr
+# large files
+*mc5-6_winning_model_fits-flags_invitrodb_v4_1_SEPT2023.Rdata
+*toxcast_data.zip

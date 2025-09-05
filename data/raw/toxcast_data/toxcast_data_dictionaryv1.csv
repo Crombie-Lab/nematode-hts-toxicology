@@ -1,0 +1,59 @@
+var,description
+spid,Sample ID
+chid,Chemical ID
+casn,CAS Registry Number
+chnm,Chemical name
+dsstox_substance_id,Unique identifier from U.S. EPA Distributed Structure-Searchable Toxicity (DSSTox) Database
+code,
+aeid,Assay component endpoint ID
+aenm,Assay component endpoint name (abbreviated ÒaenmÓ within the package)
+m5id,Level 5 ID
+m4id,Level 4 ID
+bmad,Baseline median absolute deviation
+resp_max,Maximum response value
+resp_min,Minimum response value
+max_mean,Maximum mean response value
+max_mean_conc,Log concentration atÊmax_mean
+max_med,Maximum median response value
+max_med_conc,Log concentration atÊmax_med
+logc_max,Maximum log concentration tested
+logc_min,Maximum log concentration tested
+nconc,Number of concentrations tested
+npts,Number of points in the concentration series
+nrep,Number of replicates in the concentration series
+nmed_gtbl,Number of median values greater thanÊ3bmad
+hitc,"Hit-/activity-call, generally a continuous value from 0 to 1 if usingÊtcplFit2Êfitting"
+modl,Winning model
+fitc,Fit category
+coff,Efficacy cutoff value
+top_over_cutoff,top divided by cutoff
+rmse,RMSE of the data points around the best model curve
+a,"fitting parameter methods: exp2, exp3, poly1, poly2, pow"
+er,fitted error term for plotting error bars
+bmr,benchmark response; level at which bmd is calculated = onesd*bmr_scale default bmr_scale is 1.349
+bmdl,"lower limit on the bmd (benchmark dose, curve value at bmr)"
+bmdu,"upper limit on the bmd (benchmark dose, curve value at bmr)"
+caikwt,one factor used in calculating the continuous hitcall. It is calcalated from the formula = exp(-aic(cnst)/2)/(exp(-aic(cnst)/2) + exp(-aic(fit_method)/2)) and measures how much lower the selected method AIC is than that for the constant model
+mll,another factor used in calcualting the continuous hitcall = length(modpars) - aic(fit_method)/2
+hitcall,"the final hitcall, a value ranging from 0 to 1"
+ac50,"curve value at 50% of top, curve value at cutoff"
+top,Model top.
+ac5,curve value at 5% of top
+ac10,curve value at 10% of top
+ac20,curve value at 20% of top
+ac1sd,curve value at 1 standard deviation
+bmd,"benchmark dose, curve value at bmr"
+tp,top of the curve
+ga,ac50 for the rising curve in a gnls model or the Hill model
+acc,curve value at cutoff
+p,"fitting parameter methods: exp3, exp5, gnls, hill, pow"
+q,"fitting parameter methods: gnls,"
+la,Loss AC50
+ac50_loss,Loss AC50
+b,"fitting parameter methods: exp2, exp3, ploy2"
+resp_unit,response string separated by |Õs
+conc_unit,conc string separated by |Õs
+mc6_flags,
+flag.length,
+,
+>,

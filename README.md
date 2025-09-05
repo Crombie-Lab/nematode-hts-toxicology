@@ -15,11 +15,11 @@ This repository holds the data and code to reproduce the analyses from the the m
 ### 1. Widmayer *et al.* 2022
 - Raw file path: `data/raw/Data_Andersen_All.xlsx`
 - Link: [View Internal data from Andersen Lab](https://github.com/Crombie-Lab/nematode-hts-toxicology/blob/main/data/raw/Data_Andersen_All.xlsx)
-- Paper DOI: 
+- Paper DOI: [10.1016/j.tox.2022.153292](https://doi.org/10.1016/j.tox.2022.153292)
 ### 2.  Boyd *et al.* 2016
 - Raw file path: `/data/raw/Boyd/ehp.1409645.s002.xlsx`
 - Link: [Download Boyd *et al.* 2016 supplemental data](https://ehp.niehs.nih.gov/doi/suppl/10.1289/ehp.1409645/suppl_file/ehp.1409645.s002.acco.zip)
-- Paper DOI:
+- Paper DOI:[10.1289/ehp.1409645](https://doi.org/10.1289/ehp.1409645)
 ### 3. EPA CompTox
 - Raw file path: `/data/raw/Comptox/20240717_comptox_download.xlsx`
 - Description: CompTox chemical dashboard - Batch Search
@@ -35,15 +35,15 @@ This repository holds the data and code to reproduce the analyses from the the m
 ### 6. Karmaus *et al.* 2022
 - Raw file path: `/data/raw/Karmaus/toxsci-21-0357-File010.xlsx`
 - Link: [Download Karmaus *et al.* 2022 supplemental data](https://pmc.ncbi.nlm.nih.gov/articles/instance/9237992/bin/kfac042_supplementary_data.zip)
-- Paper DOI:
-### 7. Scholz *et al.* 2016
+- Paper DOI: [10.1093/toxsci/kfac042](https://doi.org/10.1093/toxsci/kfac042)
+### 7. Klüver *et al.* 2016
 - Raw file path: `/data/raw/Zebrafish/Scholz et al 2016/annex2_fet_en.xlsx` 
-- Link: [View Scholz *et al.* 2016 supplemental data](https://www.sciencedirect.com/science/article/pii/S0045653516311055?via%3Dihub#appsec1)
-- Paper DOI:
+- Link: [View Klüver *et al.* 2016 supplemental data](https://www.sciencedirect.com/science/article/pii/S0045653516311055?via%3Dihub#appsec1)
+- Paper DOI: [10.1016/j.chemosphere.2016.08.079](https://doi.org/10.1016/j.chemosphere.2016.08.079)
 ### 8. Su *et al.* 2021
 - Raw file path: `/data/raw/Zebrafish/Su et al 2021/1-s2.0-S0048969721027765-mmc2.xls` 
 - Link: [Download Su *et al.* 2021 supplemental data](https://ars.els-cdn.com/content/image/1-s2.0-S0048969721027765-mmc2.xls)
-- Paper DOI:
+- Paper DOI: [10.1016/j.scitotenv.2021.147705](https://doi.org/10.1016/j.scitotenv.2021.147705)
 ### 9. TOXCAST
 - Raw file paths: 
     - `/data/raw/toxcast_data/mc5-6_winning_model_fits-flags_invitrodb_v4_1_SEPT2023.Rdata`
